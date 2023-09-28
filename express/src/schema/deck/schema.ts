@@ -9,23 +9,6 @@ const deckSchema = new mongoose.Schema({
 
 export const Deck = mongo.model('Deck', deckSchema);
 
-// const deck = new Deck([generateDeck]);
-
-// await deck.save();
-
-// await Deck.find();
-
-
-
-
-
-// const cardSchema = new mongoose.Schema({
-//   code: String,
-//   value: String,
-//   suit: String
-// })
-
-// const cards = mongoose.model('Cards', cardSchema)
 
 
 
