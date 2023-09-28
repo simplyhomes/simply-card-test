@@ -64,7 +64,6 @@ function App(props: { name: string }) {
       );
       if (res.data.success === true) {
         setDeckID(res.data.deck_id);
-        console.log(res.data);
       }
       setLoading(false);
     } catch (error) {
@@ -94,7 +93,6 @@ function App(props: { name: string }) {
         pushDrawnCards(res.data.cards[0]);
         setActiveIndex(0);
         setStackSize(res.data.remaining);
-        console.log(res.data);
       }
       setFetching(false);
     } catch (error) {
