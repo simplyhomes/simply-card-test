@@ -1,6 +1,6 @@
 export const generateDeck = () => {
-    const deck = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"]
-       .map((str) => ["s", "c", "d", "h"].map((suit) => `${str}${suit}`))
+    const deck = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "0", "J", "Q", "K"]
+       .map((str) => ["S", "C", "D", "H"].map((suit) => `${str}${suit}`))
        .flat();
     const shuffle = (array: string[]) => {
        let currentIndex = array.length,
